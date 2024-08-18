@@ -1,0 +1,115 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+.hidden {
+    display: none;
+}
+
+.container {
+    padding: 30px;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(14, 14, 14, 0.1);
+    max-width: 400px;  /* Smaller container size for Believe Us */
+    width: 90%;
+    margin: 20px auto;
+    background-color: transparent; /* Match the page background */
+    border: 1px solid #ccc;  /* Decreased border width */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;  /* Smooth transition */
+}
+
+.container:hover {
+    transform: scale(1.05);  /* Slightly scale up on hover */
+    box-shadow: 0 0 90px rgb(172, 48, 48);  /* Increase shadow on hover */
+}
+
+.header {
+    margin-bottom: 20px;
+}
+
+.believe-us {
+    font-size: 36px;
+    font-weight: bold;
+    margin: 0;
+    text-align: center;
+}
+
+.avg-return,
+.rumors,
+.generation {
+    font-size: 20px;
+    line-height: 1.5;
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+footer nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+footer nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+footer nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+
+.about-us {
+    background: linear-gradient(to right, #D4A3F3, #C9D1EB, #9EEADE, #97DBE8, #9DCFF6);
+    color: #333;
+    padding: 20px;
+    margin-top: 20px;
+    display: block;  /* Display the About Us section by default */
+    border-radius: 8px;
+    max-width: 1000px;  /* Normal container size for About Us */
+    width: 90%;
+    margin: 20px auto;
+}
+
+.about-us h1 {
+    font-size: 2.5em;
+    color: #191b19;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.about-us h2 {
+    color: #151515;
+    margin-top: 20px;
+}
+
+.about-us p, .about-us ul {
+    font-size: 1.1em;
+    line-height: 1.6;
+}
+
+.about-us ul {
+    list-style-type: none;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 600px;
+    text-align: center;
+}
+
+.about-us ul li {
+    list-style-type: disc;
+    text-align: left;
+    margin-left: 50px;
+}
